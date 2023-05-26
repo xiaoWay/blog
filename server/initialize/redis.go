@@ -10,7 +10,7 @@ import (
 	"time"
 )
 
-const REDIS_UTIL_ERR_PREFIX = "utils/redis.go ->"
+const REDIS_UTIL_ERR_PREFIX = "initialize/redis.go ->"
 
 var (
 	ctx = context.Background()
